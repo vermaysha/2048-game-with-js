@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container{
+   margin:auto;
+   width: 350px;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+#stage{
+    background: #01bfae;
+    cursor: pointer;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    left: 0;
+    margin-top: -200px;
+    border: 1px solid #eee;
+    z-index: 1;
+}
+
+.row0{
+    top:10px;
+}
+.row1{
+    top:120px;
+}
+.row2{
+    top:230px;
+}
+
+.col0{
+    left:10px;
+}
+.col1{
+    left:120px;
+}
+.col2{
+    left:230px;
+}
+
+span{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    background: #fff;
+    font-size: 43px;
+}
+
+.num2{
+    background: #fff;
+    color:#777;
+    font-size: 100px;
+}
+
+.num4{
+    background: #fafafa;
+    color: #e9b856;
+    font-size: 100px;
+}
+
+.num8{
+    background: #f3f3f3;
+    color:#f94e2f;
+    font-size: 100px;
+}
+
+.num16{
+    background: #F5EC00;
+    color:#fff;
+    font-size: 80px;
+}
+
+.num32{
+    background: #fcc20e;
+    color: #fdfdfd;
+    font-size: 80px;
+}
+
+.num64{
+    background: #f94a3b;
+    color:#fff;
+    font-size: 80px;
+}
+
+.num128{
+    background: #222;
+    color: #f94e2f;
+    font-size: 52px;
+}
